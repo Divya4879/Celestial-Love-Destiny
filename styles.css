@@ -33,6 +33,7 @@ h2{
   color:#ff69b4;
   font-size: 2em;
 }
+
 .cosmic-form {
   background: rgba(255, 255, 255, 0.1);
   padding: 1.5rem;
@@ -67,16 +68,13 @@ button {
   
 }
 
-button{
-  font-family: 1.5em;
-  font-weight: 900;
-  font-size: large;
-}
-
 button {
   background: var(--starry-purple);
   cursor: pointer;
   transition: transform 0.3s ease;
+  font-family: 1.5em;
+  font-weight: 900;
+  font-size: large;
 }
 
 button:hover {
@@ -109,11 +107,7 @@ button:hover {
   margin: 1rem 0;
 }
 
-
-
-
 .share-section {
-  
   margin: 2rem 2rem;
 }
 
@@ -134,17 +128,6 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* Add this to your CSS */
-
-/* Add this to position the text */
-.heart-content {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%) rotate(-90deg);
-text-align: center;
-z-index: 1;
-}
 
 
 @media (max-width: 480px) {
@@ -167,7 +150,7 @@ z-index: 1;
   }
 }
 
-/* Add this to your CSS */
+/* Footer section */
 .cosmic-footer {
 width: 100vw;
 text-align: center;
@@ -198,26 +181,6 @@ font-size: 0.9rem;
 }
 
 
-
-/* Keyframes for beating animation */
-@keyframes beat {
-0%, 100% {
-transform: scale(1) rotate(-45deg);
-}
-25% {
-transform: scale(1.1) rotate(-45deg);
-}
-50% {
-transform: scale(0.95) rotate(-45deg);
-}
-75% {
-transform: scale(1.05) rotate(-45deg);
-}
-}
-
-
-
-
 .story-box {
 background: rgba(0, 0, 0, 0.3);
 border: 1px solid var(--cosmic-pink);
@@ -231,8 +194,7 @@ box-shadow: 0 4px 8px 0 #f879b8, 0 6px 20px 0 #f879b8;
 margin-top: 2rem;
 }
 
-/* Updated Heart Animation Styles */
-/* Updated Heart Animation Styles */
+/* Heart - showing compatibilty scores*/
 .compatibility-heart {
 position: absolute;
 top: 40%;
@@ -284,6 +246,3 @@ width: 100%;
 50% { transform: scale(0.95) rotate(-45deg); }
 75% { transform: scale(1.05) rotate(-45deg); }
 }
-
-  
-  
