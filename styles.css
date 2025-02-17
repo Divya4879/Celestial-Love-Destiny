@@ -1,201 +1,289 @@
 :root {
-    --bg-color-1: #ff3366;
-    --bg-color-2: #ff6b6b;
-    --bg-color-3: #ff9ff3;
-    --bg-color-4: #c56cf0;
-    --bg-color-5: #7158e2;
-    --text-color: #2c2c54;
-    --card-bg: rgba(255, 255, 255, 0.9);
-  }
+  --cosmic-pink: #ff69b4;
+  --starry-purple: #8a2be2;
+  --deep-space: #0a0415;
+  --text-light: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: var(--text-light);
+  min-height: 100vh;
+  background: var(--deep-space);
+  overflow-x: hidden;
+  font-weight: bold;
+}
+
+.container {
+  width: 95%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+h2{
+  color:#ff69b4;
+  font-size: 2em;
+}
+.cosmic-form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--cosmic-pink);
+  margin-bottom: 1rem;
+  margin-top:3rem;
+  box-shadow: 0 4px 8px 0 #f879b8, 0 6px 20px 0 #f879b8;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: var(--cosmic-pink);
+  font-size: 0.9rem;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid var(--starry-purple);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 0.9rem;
   
-  .dark-theme {
-    --bg-color-1: #6f1e51;
-    --bg-color-2: #833471;
-    --bg-color-3: #9980fa;
-    --bg-color-4: #5758bb;
-    --bg-color-5: #1b1464;
-    --text-color: #f1f2f6;
-    --card-bg: rgba(44, 44, 84, 0.9);
-  }
+}
+
+button{
+  font-family: 1.5em;
+  font-weight: 900;
+  font-size: large;
+}
+
+button {
+  background: var(--starry-purple);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+#cosmicCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#loveStory {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-height: 400px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+#zodiacAnimation {
+  width: 100%;
+  min-height: 300px;
+  position: relative;
+  margin: 1rem 0;
+}
+
+
+
+
+.share-section {
   
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(
-      45deg,
-      var(--bg-color-1),
-      var(--bg-color-2),
-      var(--bg-color-3),
-      var(--bg-color-4),
-      var(--bg-color-5)
-    );
-    background-size: 400% 400%;
-    animation: gradientBG 15s ease infinite;
-    color: var(--text-color);
-    transition: background-color 0.3s ease;
-  }
-  
-  @keyframes gradientBG {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
+  margin: 2rem 2rem;
+}
+
+.twitter-share {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  background-color: #850043;
+  text-decoration: none;
+  border-radius: 50%;
+  gap: 0.5rem;
+  transition: transform 0.3s ease;
+  position:absolute;
+  left:46%;
+}
+
+.twitter-share:hover {
+  transform: scale(1.05);
+}
+
+/* Add this to your CSS */
+
+/* Add this to position the text */
+.heart-content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) rotate(-90deg);
+text-align: center;
+z-index: 1;
+}
+
+
+@media (max-width: 480px) {
   .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+      padding: 0.5rem;
   }
-  
-  header {
-    text-align: center;
-    margin-bottom: 30px;
+
+  .cosmic-form {
+      padding: 1rem;
   }
-  
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    animation: glow 2s ease-in-out infinite alternate;
+
+  #loveStory {
+      padding: 1rem;
+      font-size: 0.9rem;
   }
-  
-  @keyframes glow {
-    from {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px var(--bg-color-2), 0 0 20px var(--bg-color-2);
-    }
-    to {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--bg-color-2), 0 0 40px var(--bg-color-2);
-    }
+
+  .compatibility-orbit {
+      width: 200px;
+      height: 200px;
   }
-  
-  #themeToggle {
-    background-color: var(--text-color);
-    color: var(--card-bg);
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  #themeToggle:hover {
-    opacity: 0.9;
-  }
-  
-  section {
-    background-color: var(--card-bg);
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    margin-top: 0;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  input,
-  select {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button {
-    background-color: var(--bg-color-3);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: var(--bg-color-4);
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  #chatMessages {
-    height: 300px;
-    overflow-y: auto;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  #userInput {
-    display: flex;
-  }
-  
-  #userMessage {
-    flex-grow: 1;
-    margin-right: 10px;
-  }
-  
-  #starryBackground {
-    width: 100%;
-    height: 300px;
-    background-color: #000;
-    border-radius: 5px;
-  }
-  
-  #compatibilityScore {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-top: 20px;
-  }
-  
-  #storyContent {
-    white-space: pre-wrap;
-  }
-  
-  #shareCard {
-    background-color: var(--bg-color-2);
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
-  
-  footer {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  @media (max-width: 600px) {
-    .container {
-      padding: 10px;
-    }
-  
-    h1 {
-      font-size: 2rem;
-    }
-  
-    section {
-      padding: 15px;
-    }
-  }
-  
-  
+}
+
+/* Add this to your CSS */
+.cosmic-footer {
+width: 100vw;
+text-align: center;
+padding: 1.5rem;
+background: rgba(81, 7, 61, 0.993);
+backdrop-filter: blur(10px);
+border-top: 2px solid var(--cosmic-pink);
+position: relative;
+z-index: 1;
+margin-top: 4rem;
+}
+
+.cosmic-footer a{
+color:white;
+text-decoration: none;
+}
+
+.cosmic-footer a:hover{
+color:#df9fbf
+}
+
+/* Add this media query for mobile */
+@media (max-width: 480px) {
+.cosmic-footer {
+padding: 1rem;
+font-size: 0.9rem;
+}
+}
+
+
+
+/* Keyframes for beating animation */
+@keyframes beat {
+0%, 100% {
+transform: scale(1) rotate(-45deg);
+}
+25% {
+transform: scale(1.1) rotate(-45deg);
+}
+50% {
+transform: scale(0.95) rotate(-45deg);
+}
+75% {
+transform: scale(1.05) rotate(-45deg);
+}
+}
+
+
+
+
+.story-box {
+background: rgba(0, 0, 0, 0.3);
+border: 1px solid var(--cosmic-pink);
+border-radius: 15px;
+padding: 1.5rem;
+margin: 1rem 0;
+max-height: 400px;
+overflow-y: auto;
+scrollbar-color: var(--cosmic-pink);
+box-shadow: 0 4px 8px 0 #f879b8, 0 6px 20px 0 #f879b8;
+margin-top: 2rem;
+}
+
+/* Updated Heart Animation Styles */
+/* Updated Heart Animation Styles */
+.compatibility-heart {
+position: absolute;
+top: 40%;
+left: 40%;
+/* Center the heart and then rotate it */
+transform: translate(-50%, -50%) rotate(-45deg);
+transform-origin: center;
+width: 150px;  /* Increased from 100px */
+height: 150px; /* Adjusted height to maintain proportion */
+animation: beat 1s infinite;
+}
+
+.compatibility-heart::before,
+.compatibility-heart::after {
+content: "";
+position: absolute;
+width: 150px;  /* Increased from 100px */
+height: 150px; /* Adjusted height */
+border-radius: 50%;
+background-color: inherit;
+}
+
+.compatibility-heart::before {
+top: -75px; /* Adjusted to half the height */
+left: 0;
+}
+
+.compatibility-heart::after {
+left: 75px; /* Adjusted to half the width */
+top: 0;
+}
+
+/* Centered text inside the heart */
+.heart-content {
+position: absolute;
+top: 40%;
+left: 60%;
+/* Translate to center the text and rotate back to upright */
+transform: translate(-50%, -50%) rotate(45deg);
+text-align: center;
+z-index: 2;
+color: white;
+width: 100%;
+}
+
+@keyframes beat {
+0%, 100% { transform: scale(1) rotate(-45deg); }
+25% { transform: scale(1.1) rotate(-45deg); }
+50% { transform: scale(0.95) rotate(-45deg); }
+75% { transform: scale(1.05) rotate(-45deg); }
+}
+
   
   
