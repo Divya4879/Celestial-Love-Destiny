@@ -1,6 +1,6 @@
-const API_KEY = 'AIzaSyDurAzClUGCNk2Dfxk7-YFGhvwQjZXrmp8';
-        const STORY_TEMPLATES = [
-            `{girl}, a celestial navigator with eyes like shimmering nebulae and a laugh that echoed like the song of a binary star system, traced the constellations with a fingertip of stardust. A deep yearning, a cosmic loneliness, pulsed within her heart, a void waiting to be filled by a love as vast as the universe itself.
+const API_KEY = "AIzaSyDurAzClUGCNk2Dfxk7-YFGhvwQjZXrmp8";
+const STORY_TEMPLATES = [
+  `{girl}, a celestial navigator with eyes like shimmering nebulae and a laugh that echoed like the song of a binary star system, traced the constellations with a fingertip of stardust. A deep yearning, a cosmic loneliness, pulsed within her heart, a void waiting to be filled by a love as vast as the universe itself.
 
 Across the galactic expanse, {boy}, a cosmic wanderer with a smile as bright as a supernova and hair like wisps of dark matter, drifted through the void, his heart a restless comet searching for its gravitational anchor. He felt an unseen force, a whisper of destiny, pulling him towards an unknown, yet irresistible, destination.
 
@@ -28,11 +28,9 @@ The Star Council, moved by their unwavering love and the undeniable truth of the
 
 {girl} and {boy}, their love finally free to bloom, were joined in a cosmic ceremony beneath a canopy of swirling galaxies. Their union became a legend, a testament to the power of love to transcend even the most rigid cosmic laws, a beacon of hope shining brightly in the vast expanse of the universe. They ruled their own constellation, a swirling vortex of love and light, forever bound by a love as infinite and eternal as the cosmos itself.`,
 
-            // Insert all other stories here following the same pattern
-            // Replace "{girl}" with {girl} and "Adi" with {boy} in each story
-            // Maintain proper indentation and line breaks
 
-            `{girl}, her laughter a cascade of shooting stars, mapped the unexplored constellations, her fingers tracing stardust across holographic charts. A celestial cartographer with eyes like swirling nebulae, she carried within her a cosmic loneliness, a yearning for a love as vast as the universe itself.
+
+  `{girl}, her laughter a cascade of shooting stars, mapped the unexplored constellations, her fingers tracing stardust across holographic charts. A celestial cartographer with eyes like swirling nebulae, she carried within her a cosmic loneliness, a yearning for a love as vast as the universe itself.
 
 Across the galactic void, {boy}, a rogue astrophysicist with a smile as radiant as a supernova, surfed solar flares and whispered sonnets to dying stars. His heart, a restless red giant, pulsed with an unknown longing, a gravitational pull towards a destiny he couldn’t comprehend.
 
@@ -64,7 +62,7 @@ The Celestial Elders, moved by their unwavering love and the undeniable truth of
  . And as they danced among the stars, their laughter echoed through the cosmos, a melody of love that would 
  resonate for eons to come.`,
 
-            `{girl} a cosmic artist who painted nebulae with stardust and laughter, felt a pull, a cosmic yearning, a void in her soul shaped like a missing star. Her canvas, the infinite expanse of the universe, felt incomplete.
+  `{girl} a cosmic artist who painted nebulae with stardust and laughter, felt a pull, a cosmic yearning, a void in her soul shaped like a missing star. Her canvas, the infinite expanse of the universe, felt incomplete.
 
 Across the galactic tapestry, {boy}, a rogue star-sailor with a smile as bright as a supernova and eyes that held the mysteries of black holes, navigated the celestial currents. He, too, felt the tug of destiny, an invisible string pulling him towards an unknown, yet irresistible, force.
 
@@ -92,10 +90,7 @@ The Council, moved by the unwavering strength of their love and the undeniable t
 
 {girl} and {boy}, their love a beacon of hope across the galaxy, were united in a cosmic ceremony, their vows echoing through the nebulae. They ruled their own constellation, a swirling vortex of love and light, their love a testament to the power of destiny and defiance. And as they danced among the stars, their laughter, like the music of the spheres, filled the cosmos, a love story whispered across the universe for eons to come.`,
 
-
-
-
-`{girl}, a celestial dreamer with eyes that mirrored distant galaxies and a laugh like the chime of colliding asteroids, charted the unknown corners of the cosmos. A cartographer of the heavens, she felt a profound loneliness, a cosmic void in her heart yearning for a love as boundless as the universe itself.
+  `{girl}, a celestial dreamer with eyes that mirrored distant galaxies and a laugh like the chime of colliding asteroids, charted the unknown corners of the cosmos. A cartographer of the heavens, she felt a profound loneliness, a cosmic void in her heart yearning for a love as boundless as the universe itself.
 
 Across the star-dusted expanse, {boy}, a cosmic wanderer with a smile as warm as a supernova and hair like wisps of dark nebulae, sailed the solar winds, his heart a restless comet searching for its celestial anchor. He, too, felt an unseen pull, a whisper of destiny guiding him towards an unknown, yet irresistible, future.
 
@@ -123,10 +118,7 @@ The Star Weavers, moved by the unwavering strength of their love and the undenia
 
 {girl} and {boy}, their love now a beacon of hope across the galaxy, were united in a cosmic ceremony, their vows echoing through the star clusters. They ruled their own constellation, a swirling vortex of love and light, a sanctuary of cosmic harmony. Their love story, etched in the fabric of the universe, became a timeless ballad whispered across the cosmos for all eternity.`,
 
-
-
-
-`{girl}, a celestial sculptor who molded nebulae into breathtaking works of art, felt a cosmic loneliness, a void in her heart shaped like a missing star. Her laughter, like the chime of distant quasars, echoed through the empty halls of her asteroid studio.
+  `{girl}, a celestial sculptor who molded nebulae into breathtaking works of art, felt a cosmic loneliness, a void in her heart shaped like a missing star. Her laughter, like the chime of distant quasars, echoed through the empty halls of her asteroid studio.
 
 Across the galactic canvas, {boy}, a rogue comet-racer with a smile as radiant as a supernova and eyes that held the secrets of black holes, navigated the celestial currents. His heart, a restless red giant, pulsed with an unknown yearning, drawn by an invisible thread of destiny.
 
@@ -152,166 +144,174 @@ Armed with this prophecy, they returned, confronting the Guardians of Harmony. {
 
 The Guardians, moved by the unwavering strength of their love and the undeniable truth of the prophecy, rescinded their decree. The universe rejoiced, showering them with cascades of stardust and celestial light.
 
-{girl} and {boy}, their love a beacon of hope and harmony across the galaxy, were united in a cosmic ceremony, their vows echoing through the nebulae. They ruled their own constellation, a swirling vortex of love and light, their love a testament to the power of destiny and defiance, a love story whispered across the universe for eons to come, a cosmic masterpiece painted on the canvas of eternity.`
-        ];
+{girl} and {boy}, their love a beacon of hope and harmony across the galaxy, were united in a cosmic ceremony, their vows echoing through the nebulae. They ruled their own constellation, a swirling vortex of love and light, their love a testament to the power of destiny and defiance, a love story whispered across the universe for eons to come, a cosmic masterpiece painted on the canvas of eternity.`,
+];
 
-        // Cosmic Background Animation
-        const canvas = document.getElementById('cosmicCanvas');
-        const ctx = canvas.getContext('2d');
-        let stars = [];
+// Cosmic Background Animation
+const canvas = document.getElementById("cosmicCanvas");
+const ctx = canvas.getContext("2d");
+let stars = [];
 
-        function getZodiacSign(birthdate) {
-            const date = new Date(birthdate);
-            const [month, day] = [date.getMonth() + 1, date.getDate()];
-            
-            if ((month === 1 && day >= 20) || (month === 2 && day <= 18)) return 'Aquarius';
-            if ((month === 2 && day >= 19) || (month === 3 && day <= 20)) return 'Pisces';
-            if ((month === 3 && day >= 21) || (month === 4 && day <= 19)) return 'Aries';
-            if ((month === 4 && day >= 20) || (month === 5 && day <= 20)) return 'Taurus';
-            if ((month === 5 && day >= 21) || (month === 6 && day <= 20)) return 'Gemini';
-            if ((month === 6 && day >= 21) || (month === 7 && day <= 22)) return 'Cancer';
-            if ((month === 7 && day >= 23) || (month === 8 && day <= 22)) return 'Leo';
-            if ((month === 8 && day >= 23) || (month === 9 && day <= 22)) return 'Virgo';
-            if ((month === 9 && day >= 23) || (month === 10 && day <= 22)) return 'Libra';
-            if ((month === 10 && day >= 23) || (month === 11 && day <= 21)) return 'Scorpio';
-            if ((month === 11 && day >= 22) || (month === 12 && day <= 21)) return 'Sagittarius';
-            return 'Capricorn';
-        }
-        
-        // Zodiac Compatibility Matrix
-        const compatibilityMatrix = {
-            Aries: { best: ['Leo', 'Sagittarius'], worst: ['Cancer', 'Capricorn'] },
-            Taurus: { best: ['Virgo', 'Capricorn'], worst: ['Leo', 'Aquarius'] },
-            Gemini: { best: ['Libra', 'Aquarius'], worst: ['Virgo', 'Pisces'] },
-            Cancer: { best: ['Scorpio', 'Pisces'], worst: ['Aries', 'Libra'] },
-            Leo: { best: ['Aries', 'Sagittarius'], worst: ['Taurus', 'Scorpio'] },
-            Virgo: { best: ['Taurus', 'Capricorn'], worst: ['Gemini', 'Sagittarius'] },
-            Libra: { best: ['Gemini', 'Aquarius'], worst: ['Cancer', 'Capricorn'] },
-            Scorpio: { best: ['Cancer', 'Pisces'], worst: ['Leo', 'Aquarius'] },
-            Sagittarius: { best: ['Aries', 'Leo'], worst: ['Virgo', 'Pisces'] },
-            Capricorn: { best: ['Taurus', 'Virgo'], worst: ['Aries', 'Libra'] },
-            Aquarius: { best: ['Gemini', 'Libra'], worst: ['Taurus', 'Scorpio'] },
-            Pisces: { best: ['Cancer', 'Scorpio'], worst: ['Gemini', 'Sagittarius'] }
-        };
-        
-        function calculateCompatibility(sign1, sign2) {
-            if (compatibilityMatrix[sign1].best.includes(sign2)) {
-                return 80 + Math.floor(Math.random() * 20);
-            }
-            if (compatibilityMatrix[sign1].worst.includes(sign2)) {
-                return 20 + Math.floor(Math.random() * 30);
-            }
-            return 50 + Math.floor(Math.random() * 30);
-        }
-        
+function getZodiacSign(birthdate) {
+  const date = new Date(birthdate);
+  const [month, day] = [date.getMonth() + 1, date.getDate()];
 
-        class Star {
-            constructor() {
-                this.reset();
-                this.size = Math.random() * 3;
-                this.speed = Math.random() * 0.5 + 0.2;
-            }
+  if ((month === 1 && day >= 20) || (month === 2 && day <= 18))
+    return "Aquarius";
+  if ((month === 2 && day >= 19) || (month === 3 && day <= 20)) return "Pisces";
+  if ((month === 3 && day >= 21) || (month === 4 && day <= 19)) return "Aries";
+  if ((month === 4 && day >= 20) || (month === 5 && day <= 20)) return "Taurus";
+  if ((month === 5 && day >= 21) || (month === 6 && day <= 20)) return "Gemini";
+  if ((month === 6 && day >= 21) || (month === 7 && day <= 22)) return "Cancer";
+  if ((month === 7 && day >= 23) || (month === 8 && day <= 22)) return "Leo";
+  if ((month === 8 && day >= 23) || (month === 9 && day <= 22)) return "Virgo";
+  if ((month === 9 && day >= 23) || (month === 10 && day <= 22)) return "Libra";
+  if ((month === 10 && day >= 23) || (month === 11 && day <= 21))
+    return "Scorpio";
+  if ((month === 11 && day >= 22) || (month === 12 && day <= 21))
+    return "Sagittarius";
+  return "Capricorn";
+}
 
-            reset() {
-                this.x = Math.random() * canvas.width;
-                this.y = Math.random() * canvas.height;
-            }
+// Zodiac Compatibility Matrix
+const compatibilityMatrix = {
+  Aries: { best: ["Leo", "Sagittarius"], worst: ["Cancer", "Capricorn"] },
+  Taurus: { best: ["Virgo", "Capricorn"], worst: ["Leo", "Aquarius"] },
+  Gemini: { best: ["Libra", "Aquarius"], worst: ["Virgo", "Pisces"] },
+  Cancer: { best: ["Scorpio", "Pisces"], worst: ["Aries", "Libra"] },
+  Leo: { best: ["Aries", "Sagittarius"], worst: ["Taurus", "Scorpio"] },
+  Virgo: { best: ["Taurus", "Capricorn"], worst: ["Gemini", "Sagittarius"] },
+  Libra: { best: ["Gemini", "Aquarius"], worst: ["Cancer", "Capricorn"] },
+  Scorpio: { best: ["Cancer", "Pisces"], worst: ["Leo", "Aquarius"] },
+  Sagittarius: { best: ["Aries", "Leo"], worst: ["Virgo", "Pisces"] },
+  Capricorn: { best: ["Taurus", "Virgo"], worst: ["Aries", "Libra"] },
+  Aquarius: { best: ["Gemini", "Libra"], worst: ["Taurus", "Scorpio"] },
+  Pisces: { best: ["Cancer", "Scorpio"], worst: ["Gemini", "Sagittarius"] },
+};
 
-            update() {
-                this.y += this.speed;
-                if (this.y > canvas.height) this.reset();
-            }
+function calculateCompatibility(sign1, sign2) {
+  if (compatibilityMatrix[sign1].best.includes(sign2)) {
+    return 80 + Math.floor(Math.random() * 20);
+  }
+  if (compatibilityMatrix[sign1].worst.includes(sign2)) {
+    return 20 + Math.floor(Math.random() * 30);
+  }
+  return 50 + Math.floor(Math.random() * 30);
+}
 
-            draw() {
-                ctx.fillStyle = `hsla(${Math.random() * 360}, 70%, 70%, 0.8)`;
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-                ctx.fill();
-            }
-        }
+class Star {
+  constructor() {
+    this.reset();
+    this.size = Math.random() * 3;
+    this.speed = Math.random() * 0.5 + 0.2;
+  }
 
-        function initGalaxy() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-            stars = Array.from({ length: 200 }, () => new Star());
-        }
+  reset() {
+    this.x = Math.random() * canvas.width;
+    this.y = Math.random() * canvas.height;
+  }
 
-        function animate() {
-            ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
+  update() {
+    this.y += this.speed;
+    if (this.y > canvas.height) this.reset();
+  }
 
-            stars.forEach(star => {
-                star.update();
-                star.draw();
-            });
+  draw() {
+    ctx.fillStyle = `hsla(${Math.random() * 360}, 70%, 70%, 0.8)`;
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+    ctx.fill();
+  }
+}
 
-            requestAnimationFrame(animate);
-        }
+function initGalaxy() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  stars = Array.from({ length: 200 }, () => new Star());
+}
 
-        // Gender Detection
-        async function detectGender(name) {
-            try {
-                const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${API_KEY}`, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        contents: [{
-                            parts: [{
-                                text: `Is ${name} typically male or female? Answer only 'male' or 'female'`
-                            }]
-                        }]
-                    })
-                });
-                const data = await response.json();
-                return data.candidates[0].content.parts[0].text.toLowerCase();
-            } catch {
-                return 'male';
-            }
-        }
+function animate() {
+  ctx.fillStyle = "rgba(0, 0, 0, 0.1)";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-        // Form Handling
-        document.getElementById('loveForm').addEventListener('submit', async (e) => {
-            e.preventDefault();
+  stars.forEach((star) => {
+    star.update();
+    star.draw();
+  });
 
-            const name1 = document.getElementById('name1').value;
-            const name2 = document.getElementById('name2').value;
+  requestAnimationFrame(animate);
+}
 
-            // Detect genders
-            const gender1 = await detectGender(name1);
-            const gender2 = await detectGender(name2);
+// Gender Detection
+async function detectGender(name) {
+  try {
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${API_KEY}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          contents: [
+            {
+              parts: [
+                {
+                  text: `Is ${name} typically male or female? Answer only 'male' or 'female'`,
+                },
+              ],
+            },
+          ],
+        }),
+      }
+    );
+    const data = await response.json();
+    return data.candidates[0].content.parts[0].text.toLowerCase();
+  } catch {
+    return "male";
+  }
+}
 
-            // Determine names
-            let boyName = gender1 === 'male' ? name1 : name2;
-            let girlName = gender1 === 'female' ? name1 : name2;
+// Form Handling
+document.getElementById("loveForm").addEventListener("submit", async (e) => {
+  e.preventDefault();
 
-            const sign1 = getZodiacSign(document.getElementById('dob1').value);
-            const sign2 = getZodiacSign(document.getElementById('dob2').value);
-            const compatibility = calculateCompatibility(sign1, sign2);
+  const name1 = document.getElementById("name1").value;
+  const name2 = document.getElementById("name2").value;
 
-         
-            
+  // Detect genders
+  const gender1 = await detectGender(name1);
+  const gender2 = await detectGender(name2);
 
-            // Select random story template
-            const randomStory = STORY_TEMPLATES[Math.floor(Math.random() * STORY_TEMPLATES.length)]
-                .replace(/{boy}/g, boyName)
-                .replace(/{girl}/g, girlName);
+  // Determine names
+  let boyName = gender1 === "male" ? name1 : name2;
+  let girlName = gender1 === "female" ? name1 : name2;
 
-            // Update UI
-            document.getElementById('loveStory').innerHTML = randomStory;
-            
-            document.getElementById('loveStory').className = 'story-box';
-            createZodiacAnimation(compatibility);
-            createShareButton(boyName, girlName, compatibility);
-        });
+  const sign1 = getZodiacSign(document.getElementById("dob1").value);
+  const sign2 = getZodiacSign(document.getElementById("dob2").value);
+  const compatibility = calculateCompatibility(sign1, sign2);
 
-        // Replace the existing createZodiacAnimation function with this
-        function createZodiacAnimation(score) {
-            const container = document.getElementById('zodiacAnimation');
-            const hue = ((score + 10) / 130) * 360;
-            
-            container.innerHTML = `
+  // Select random story template
+  const randomStory = STORY_TEMPLATES[
+    Math.floor(Math.random() * STORY_TEMPLATES.length)
+  ]
+    .replace(/{boy}/g, boyName)
+    .replace(/{girl}/g, girlName);
+
+  // Update UI
+  document.getElementById("loveStory").innerHTML = randomStory;
+
+  document.getElementById("loveStory").className = "story-box";
+  createZodiacAnimation(compatibility);
+  createShareButton(boyName, girlName, compatibility);
+});
+
+//  createZodiacAnimation function
+function createZodiacAnimation(score) {
+  const container = document.getElementById("zodiacAnimation");
+  const hue = ((score + 10) / 130) * 360;
+
+  container.innerHTML = `
                 <div class="compatibility-heart" style="background: hsl(${hue}, 70%, 50%)">
                     <div class="heart-content">
                         <h2 style="margin: 0; font-size: 2.5rem">${score}%</h2>
@@ -319,23 +319,25 @@ The Guardians, moved by the unwavering strength of their love and the undeniable
                     </div>
                 </div>
             `;
-        }
+}
 
-// Keep all other existing JavaScript code below
+
 // (form submission handler, gender detection, etc.)
 
-        function createShareButton(name1, name2, score) {
-            const tweetText = `🌟 ${name1} & ${name2}'s Cosmic Love Score: ${score}%! ✨ Discover your cosmic destiny at ${window.location.href}`;
-            document.getElementById('shareSection').innerHTML = `
-                <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}" 
+function createShareButton(name1, name2, score) {
+  const tweetText = `🌟 ${name1} & ${name2}'s Cosmic Love Score: ${score}%! ✨ Discover your cosmic destiny at ${window.location.href}`;
+  document.getElementById("shareSection").innerHTML = `
+                <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(
+                  tweetText
+                )}" 
                    class="twitter-share" 
                    target="_blank">
                     <i class="fa fa-twitter" style="font-size:36px; color:white"></i>
                 </a>
             `;
-        }
+}
 
-        // Initialize
-        window.addEventListener('resize', initGalaxy);
-        initGalaxy();
-        animate();
+// Initialize
+window.addEventListener("resize", initGalaxy);
+initGalaxy();
+animate();
